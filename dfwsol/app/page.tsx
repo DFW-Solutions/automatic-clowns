@@ -11,7 +11,7 @@ export default function Home() {
         <h2 className='font-normal text-xl mb-2 text-center lg:text-left'>Connect with me</h2>
         <form className='mt-2' name='contact' method='POST' data-netlify='true' data-netlify-recaptcha="true">
           <div className='hidden'>
-            <label htmlFor="hpot">Don't fill in this form if you're human: <input name="bot-field" /></label>
+            <label htmlFor="hpot">Don&apos;t fill in this form if you're human: <input id="hpot" name="bot-field" /></label>
             <input type='hidden' name='form-name' value='contact' />
           </div>
           <div className='mt-2'>
