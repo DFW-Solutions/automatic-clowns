@@ -10,6 +10,7 @@ export default function Home() {
       <section className='mt-8'>
         <h3 className='font-normal text-xl mb-2'>Connect with me</h3>
         <form className='mt-2' name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <div className='mt-2'>
             <label className='block' htmlFor="name_input">Name *</label>
             <input id="name_input" required className='w-full max-w-sm p-2' type="text" name="name" />
