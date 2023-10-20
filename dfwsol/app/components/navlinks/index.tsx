@@ -9,17 +9,22 @@ const NavLinks: NavItems[] = [
     text: 'Why Us'
   },
   {
-    path: '/contact',
-    text: 'Contact Us'
-  },
-  {
-    path: '/blog',
-    text: 'Blog'
-  },
-  {
     path: '/services',
-    text: 'Our Services'
+    text: 'Services'
+  },
+  {
+    path: '/#portfolio',
+    text: 'Portfolio'
+  },
+  {
+    path: '/contact',
+    text: 'Contact'
+  },
+  {
+    path: '/#pricing',
+    text: 'Pricing'
   }
+  
 ];
 
 export default NavLinks;

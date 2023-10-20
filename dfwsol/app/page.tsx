@@ -5,7 +5,18 @@ export default function Home() {
   return (
     <>
 
-      <h1>Home</h1>
+      <section className='h-2/3'>
+        <h1>Home</h1>
+      </section>
+      <section id="portfolio" className="h-3/4">
+        <h2 className='pt-24'>Portfolio</h2>
+      </section>
+      <section id="pricing" className="h-5/6">
+        <h2 className='pt-24'>Pricing</h2>
+      </section>
+      <footer className='h-1/3'>
+        Footer
+      </footer>
       
       {/* <main className={`${inter.className} max-w-2/5 mx-auto px-4`}>
         <h1 className='text-4xl text-center lg:text-left font-semibold'>Welcome to Digital Frontier Web Solutions!</h1>
