@@ -4,7 +4,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main className={`${inter.className} max-w-2/5 mx-auto px-4`}>
-      <h1 className='text-4xl text-center lg:text-left font-semibold'>Welcome to DFW Solutions</h1>
+      <h1 className='text-4xl text-center lg:text-left font-semibold'>Welcome to Digital Frontier Web Solutions!</h1>
       <p className='text-2xl mt-4 pb-6 text-center lg:text-left'>Content coming soon!</p>
 
       <section className='mt-8'>
